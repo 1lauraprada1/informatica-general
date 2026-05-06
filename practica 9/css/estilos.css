@@ -1,0 +1,90 @@
+/* =========================
+   SELECTORES DE ETIQUETA (2)
+========================= */
+
+body {
+    font-family: Arial;
+    background-color: #111;
+    color: white;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+
+/* =========================
+   SELECTORES DE ID (2)
+========================= */
+
+#destacado {
+    background-color: #222;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#titulo-principal {
+    text-transform: uppercase;
+}
+
+
+/* =========================
+   SELECTORES DE CLASE (2)
+========================= */
+
+.img-destacada {
+    width: 200px;
+    border: 3px solid red;
+    margin: 10px;
+}
+
+.texto-importante {
+    color: yellow;
+    font-weight: bold;
+}
+
+
+/* =========================
+   MENÚ DE NAVEGACIÓN
+========================= */
+
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: red;
+}
+
+
+/* =========================
+   FORMULARIO (CONTACTO)
+========================= */
+
+input, textarea {
+    width: 250px;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkred;
+}
